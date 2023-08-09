@@ -62,8 +62,8 @@ public class KingGame {
 
 	private void line2(
 	) {
-		// 2 PRINT TAB(15);"CREATIVE COMPUTING  MORRISTOWN, NEW JERSEY"
-		System.out.println( "\tCREATIVE COMPUTING  MORRISTOWN, NEW JERSEY" );
+		// 2 PRINT TAB(15);"CREATIVE COMPUTING MORRISTOWN, NEW JERSEY"
+		System.out.println( "\tCREATIVE COMPUTING MORRISTOWN, NEW JERSEY" );
 		line3();
 	}
 
