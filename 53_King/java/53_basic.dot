@@ -1,0 +1,1139 @@
+
+
+digraph King {
+
+	bgcolor = "#AAAAAA"
+
+
+	line1 [ label = "PRINT TAB(34);'KING'..." ];
+	line1 -> line2 [ label = "pc++" ];
+
+
+	line2 [ label = "PRINT TAB(15);'CREAT..." ];
+	line2 -> line3 [ label = "pc++" ];
+
+
+	line3 [ label = "PRINT:PRINT:PRINT " ];
+	line3 -> line4 [ label = "pc++" ];
+
+
+	line4 [ label = "PRINT 'DO YOU WANT I..." ];
+	line4 -> line5 [ label = "pc++" ];
+
+
+	line5 [ label = "INPUT Z$ " ];
+	line5 -> line6 [ label = "pc++" ];
+
+
+	line6 [ label = "N5=8 " ];
+	line6 -> line10 [ label = "pc++" ];
+
+
+	line10 [ label = "LEFT$(Z$,1)='N' ?" ];
+	line10 -> line47 [ label = "LEFT$(Z$,1)='N'" ];
+	line10 -> line11 [ label = "else" ];
+
+
+	line11 [ label = "Z$='AGAIN' ?" ];
+	line11 -> line1960 [ label = "Z$='AGAIN'" ];
+	line11 -> line12 [ label = "else" ];
+
+
+	line12 [ label = "PRINT:PRINT:PRINT " ];
+	line12 -> line20 [ label = "pc++" ];
+
+
+	line20 [ label = "PRINT 'CONGRATULATIO..." ];
+	line20 -> line22 [ label = "pc++" ];
+
+
+	line22 [ label = "PRINT 'DETINU, A SMA..." ];
+	line22 -> line24 [ label = "pc++" ];
+
+
+	line24 [ label = "PRINT 'JOB IS TO DEC..." ];
+	line24 -> line26 [ label = "pc++" ];
+
+
+	line26 [ label = "PRINT 'MONEY TO YOUR..." ];
+	line26 -> line28 [ label = "pc++" ];
+
+
+	line28 [ label = "PRINT 'THE MONEY SYS..." ];
+	line28 -> line30 [ label = "pc++" ];
+
+
+	line30 [ label = "PRINT 'RALLODS PER Y..." ];
+	line30 -> line32 [ label = "pc++" ];
+
+
+	line32 [ label = "PRINT 'FROM FARM PRO..." ];
+	line32 -> line34 [ label = "pc++" ];
+
+
+	line34 [ label = "PRINT 'FORESTS, HUNT..." ];
+	line34 -> line36 [ label = "pc++" ];
+
+
+	line36 [ label = "PRINT 'WHICH ALSO HA..." ];
+	line36 -> line38 [ label = "pc++" ];
+
+
+	line38 [ label = "PRINT 'TO FOREIGN IN..." ];
+	line38 -> line40 [ label = "pc++" ];
+
+
+	line40 [ label = "PRINT 'THEIR OWN WOR..." ];
+	line40 -> line42 [ label = "pc++" ];
+
+
+	line42 [ label = "PRINT 'SQUARE MILE T..." ];
+	line42 -> line44 [ label = "pc++" ];
+
+
+	line44 [ label = "PRINT 'YOUR GOAL IS ..." ];
+	line44 -> line46 [ label = "pc++" ];
+
+
+	line46 [ label = "PRINT 'GOOD LUCK!' " ];
+	line46 -> line47 [ label = "pc++" ];
+
+
+	line47 [ label = "PRINT " ];
+	line47 -> line50 [ label = "pc++" ];
+
+
+	line50 [ label = "A=INT(60000+(1000*RND(1))-(1000*RND(1))) " ];
+	line50 -> line55 [ label = "pc++" ];
+
+
+	line55 [ label = "B=INT(500+(10*RND(1))-(10*RND(1))) " ];
+	line55 -> line65 [ label = "pc++" ];
+
+
+	line65 [ label = "D=2000 " ];
+	line65 -> line100 [ label = "pc++" ];
+
+
+	line100 [ label = "W=INT(10*RND(1)+95) " ];
+	line100 -> line102 [ label = "pc++" ];
+
+
+	line102 [ label = "PRINT " ];
+	line102 -> line105 [ label = "pc++" ];
+
+
+	line105 [ label = "PRINT 'YOU NOW HAVE ..." ];
+	line105 -> line110 [ label = "pc++" ];
+
+
+	line110 [ label = "PRINT INT(B);:PRINT ..." ];
+	line110 -> line115 [ label = "pc++" ];
+
+
+	line115 [ label = "V9=INT(((RND(1)/2)*10+10)) " ];
+	line115 -> line120 [ label = "pc++" ];
+
+
+	line120 [ label = "C=0 ?" ];
+	line120 -> line140 [ label = "C=0" ];
+	line120 -> line130 [ label = "else" ];
+
+
+	line130 [ label = "PRINT INT(C);'FOREIG..." ];
+	line130 -> line140 [ label = "pc++" ];
+
+
+	line140 [ label = "PRINT 'AND';INT(D);'..." ];
+	line140 -> line150 [ label = "pc++" ];
+
+
+	line150 [ label = "PRINT 'THIS YEAR IND..." ];
+	line150 -> line152 [ label = "pc++" ];
+
+
+	line152 [ label = "PRINT 'RALLODS PER S..." ];
+	line152 -> line155 [ label = "pc++" ];
+
+
+	line155 [ label = "PRINT 'LAND CURRENTL..." ];
+	line155 -> line162 [ label = "pc++" ];
+
+
+	line162 [ label = "PRINT " ];
+	line162 -> line200 [ label = "pc++" ];
+
+
+	line200 [ label = "PRINT 'HOW MANY SQUA..." ];
+	line200 -> line210 [ label = "pc++" ];
+
+
+	line210 [ label = "INPUT H " ];
+	line210 -> line215 [ label = "pc++" ];
+
+
+	line215 [ label = "H<0 ?" ];
+	line215 -> line200 [ label = "H<0" ];
+	line215 -> line220 [ label = "else" ];
+
+
+	line220 [ label = "H<=D-1000 ?" ];
+	line220 -> line300 [ label = "H<=D-1000" ];
+	line220 -> line230 [ label = "else" ];
+
+
+	line230 [ label = "PRINT '***  THINK AG..." ];
+	line230 -> line240 [ label = "pc++" ];
+
+
+	line240 [ label = "X<>0 ?" ];
+	line240 -> line200 [ label = "X<>0" ];
+	line240 -> line250 [ label = "else" ];
+
+
+	line250 [ label = "PRINT:PRINT '(FOREIG..." ];
+	line250 -> line260 [ label = "pc++" ];
+
+
+	line260 [ label = "PRINT 'FOREST LAND I..." ];
+	line260 -> line270 [ label = "pc++" ];
+
+
+	line270 [ label = "PRINT 'THICKER TOP S..." ];
+	line270 -> line280 [ label = "pc++" ];
+
+
+	line280 [ label = "X=1 " ];
+	line280 -> line299 [ label = "pc++" ];
+
+
+	line299 [ label = "GOTO 200 " ];
+	line299 -> line200 [ label = "GOTO 200 " ];
+
+
+	line300 [ label = "D=INT(D-H) " ];
+	line300 -> line310 [ label = "pc++" ];
+
+
+	line310 [ label = "A=INT(A+(H*W)) " ];
+	line310 -> line320 [ label = "pc++" ];
+
+
+	line320 [ label = "PRINT 'HOW MANY RALL..." ];
+	line320 -> line340 [ label = "pc++" ];
+
+
+	line340 [ label = "INPUT I " ];
+	line340 -> line342 [ label = "pc++" ];
+
+
+	line342 [ label = "I<0 ?" ];
+	line342 -> line320 [ label = "I<0" ];
+	line342 -> line350 [ label = "else" ];
+
+
+	line350 [ label = "I<A ?" ];
+	line350 -> line400 [ label = "I<A" ];
+	line350 -> line360 [ label = "else" ];
+
+
+	line360 [ label = "I=A ?" ];
+	line360 -> line380 [ label = "I=A" ];
+	line360 -> line370 [ label = "else" ];
+
+
+	line370 [ label = "PRINT '   THINK AGAI..." ];
+	line370 -> line375 [ label = "pc++" ];
+
+
+	line375 [ label = "GOTO 320 " ];
+	line375 -> line320 [ label = "GOTO 320 " ];
+
+
+	line380 [ label = "J=0 " ];
+	line380 -> line390 [ label = "pc++" ];
+
+
+	line390 [ label = "K=0 " ];
+	line390 -> line395 [ label = "pc++" ];
+
+
+	line395 [ label = "A=0 " ];
+	line395 -> line399 [ label = "pc++" ];
+
+
+	line399 [ label = "GOTO 1000 " ];
+	line399 -> line1000 [ label = "GOTO 1000 " ];
+
+
+	line400 [ label = "A=INT(A-I) " ];
+	line400 -> line410 [ label = "pc++" ];
+
+
+	line410 [ label = "PRINT 'HOW MANY SQUA..." ];
+	line410 -> line420 [ label = "pc++" ];
+
+
+	line420 [ label = "INPUT J " ];
+	line420 -> line421 [ label = "pc++" ];
+
+
+	line421 [ label = "J<0 ?" ];
+	line421 -> line410 [ label = "J<0" ];
+	line421 -> line422 [ label = "else" ];
+
+
+	line422 [ label = "J<=B*2 ?" ];
+	line422 -> line426 [ label = "J<=B*2" ];
+	line422 -> line423 [ label = "else" ];
+
+
+	line423 [ label = "PRINT '   SORRY, BUT..." ];
+	line423 -> line424 [ label = "pc++" ];
+
+
+	line424 [ label = "GOTO 410 " ];
+	line424 -> line410 [ label = "GOTO 410 " ];
+
+
+	line426 [ label = "J<=D-1000 ?" ];
+	line426 -> line430 [ label = "J<=D-1000" ];
+	line426 -> line427 [ label = "else" ];
+
+
+	line427 [ label = "PRINT '   SORRY, BUT..." ];
+	line427 -> line428 [ label = "pc++" ];
+
+
+	line428 [ label = "GOTO 410 " ];
+	line428 -> line410 [ label = "GOTO 410 " ];
+
+
+	line430 [ label = "U1=INT(J*V9) " ];
+	line430 -> line435 [ label = "pc++" ];
+
+
+	line435 [ label = "U1<A ?" ];
+	line435 -> line500 [ label = "U1<A" ];
+	line435 -> line440 [ label = "else" ];
+
+
+	line440 [ label = "U1=A ?" ];
+	line440 -> line490 [ label = "U1=A" ];
+	line440 -> line450 [ label = "else" ];
+
+
+	line450 [ label = "PRINT '   THINK AGAI..." ];
+	line450 -> line460 [ label = "pc++" ];
+
+
+	line460 [ label = "GOTO 410 " ];
+	line460 -> line410 [ label = "GOTO 410 " ];
+
+
+	line490 [ label = "K=0 " ];
+	line490 -> line495 [ label = "pc++" ];
+
+
+	line495 [ label = "A=0 " ];
+	line495 -> line499 [ label = "pc++" ];
+
+
+	line499 [ label = "GOTO 1000 " ];
+	line499 -> line1000 [ label = "GOTO 1000 " ];
+
+
+	line500 [ label = "A=A-U1 " ];
+	line500 -> line510 [ label = "pc++" ];
+
+
+	line510 [ label = "PRINT 'HOW MANY RALL..." ];
+	line510 -> line520 [ label = "pc++" ];
+
+
+	line520 [ label = "INPUT K " ];
+	line520 -> line522 [ label = "pc++" ];
+
+
+	line522 [ label = "K<0 ?" ];
+	line522 -> line510 [ label = "K<0" ];
+	line522 -> line530 [ label = "else" ];
+
+
+	line530 [ label = "K<=A ?" ];
+	line530 -> line1000 [ label = "K<=A" ];
+	line530 -> line540 [ label = "else" ];
+
+
+	line540 [ label = "PRINT '   THINK AGAI..." ];
+	line540 -> line550 [ label = "pc++" ];
+
+
+	line550 [ label = "GOTO 510 " ];
+	line550 -> line510 [ label = "GOTO 510 " ];
+
+
+	line600 [ label = "H<>0 ?" ];
+	line600 -> line1002 [ label = "H<>0" ];
+	line600 -> line602 [ label = "else" ];
+
+
+	line602 [ label = "I<>0 ?" ];
+	line602 -> line1002 [ label = "I<>0" ];
+	line602 -> line604 [ label = "else" ];
+
+
+	line604 [ label = "J<>0 ?" ];
+	line604 -> line1002 [ label = "J<>0" ];
+	line604 -> line606 [ label = "else" ];
+
+
+	line606 [ label = "K<>0 ?" ];
+	line606 -> line1002 [ label = "K<>0" ];
+	line606 -> line609 [ label = "else" ];
+
+
+	line609 [ label = "PRINT " ];
+	line609 -> line612 [ label = "pc++" ];
+
+
+	line612 [ label = "PRINT 'GOODBYE.' " ];
+	line612 -> line614 [ label = "pc++" ];
+
+
+	line614 [ label = "PRINT '(IF YOU WISH ..." ];
+	line614 -> line616 [ label = "pc++" ];
+
+
+	line616 [ label = "PRINT ''AGAIN' WHEN ..." ];
+	line616 -> line617 [ label = "pc++" ];
+
+
+	line617 [ label = "PRINT 'OF THE GAME)...." ];
+	line617 -> line618 [ label = "pc++" ];
+
+
+	line618 [ label = "STOP " shape = "none" ];
+
+
+	line1000 [ label = "GOTO 600 " ];
+	line1000 -> line600 [ label = "GOTO 600 " ];
+
+
+	line1002 [ label = "PRINT " ];
+	line1002 -> line1003 [ label = "pc++" ];
+
+
+	line1003 [ label = "PRINT " ];
+	line1003 -> line1010 [ label = "pc++" ];
+
+
+	line1010 [ label = "A=INT(A-K) " ];
+	line1010 -> line1020 [ label = "pc++" ];
+
+
+	line1020 [ label = "A4=A " ];
+	line1020 -> line1100 [ label = "pc++" ];
+
+
+	line1100 [ label = "INT(I/100-B)>=0 ?" ];
+	line1100 -> line1120 [ label = "INT(I/100-B)>=0" ];
+	line1100 -> line1105 [ label = "else" ];
+
+
+	line1105 [ label = "I/100<50 ?" ];
+	line1105 -> line1700 [ label = "I/100<50" ];
+	line1105 -> line1110 [ label = "else" ];
+
+
+	line1110 [ label = "PRINT INT(B-(I/100))..." ];
+	line1110 -> line1120 [ label = "pc++" ];
+
+
+	line1120 [ label = "F1=INT(RND(1)*(2000-D)) " ];
+	line1120 -> line1122 [ label = "pc++" ];
+
+
+	line1122 [ label = "K<25 ?" ];
+	line1122 -> line1130 [ label = "K<25" ];
+	line1122 -> line1125 [ label = "else" ];
+
+
+	line1125 [ label = "F1=INT(F1/(K/25)) " ];
+	line1125 -> line1130 [ label = "pc++" ];
+
+
+	line1130 [ label = "F1<=0 ?" ];
+	line1130 -> line1150 [ label = "F1<=0" ];
+	line1130 -> line1140 [ label = "else" ];
+
+
+	line1140 [ label = "PRINT F1;'COUNTRYMEN..." ];
+	line1140 -> line1150 [ label = "pc++" ];
+
+
+	line1150 [ label = "INT((I/100)-B)<0 ?" ];
+	line1150 -> line1170 [ label = "INT((I/100)-B)<0" ];
+	line1150 -> line1160 [ label = "else" ];
+
+
+	line1160 [ label = "F1>0 ?" ];
+	line1160 -> line1180 [ label = "F1>0" ];
+	line1160 -> line1165 [ label = "else" ];
+
+
+	line1165 [ label = "GOTO 1200 " ];
+	line1165 -> line1200 [ label = "GOTO 1200 " ];
+
+
+	line1170 [ label = "PRINT '   YOU WERE F..." ];
+	line1170 -> line1172 [ label = "pc++" ];
+
+
+	line1172 [ label = "PRINT 'RALLODS ON FU..." ];
+	line1172 -> line1174 [ label = "pc++" ];
+
+
+	line1174 [ label = "B5=INT(F1+(B-(I/100))) " ];
+	line1174 -> line1175 [ label = "pc++" ];
+
+
+	line1175 [ label = "A=INT(A-((F1+(B-(I/100)))*9)) " ];
+	line1175 -> line1176 [ label = "pc++" ];
+
+
+	line1176 [ label = "GOTO 1185 " ];
+	line1176 -> line1185 [ label = "GOTO 1185 " ];
+
+
+	line1180 [ label = "PRINT '   YOU WERE F..." ];
+	line1180 -> line1181 [ label = "pc++" ];
+
+
+	line1181 [ label = "PRINT 'FUNERAL EXPEN..." ];
+	line1181 -> line1182 [ label = "pc++" ];
+
+
+	line1182 [ label = "B5=F1 " ];
+	line1182 -> line1183 [ label = "pc++" ];
+
+
+	line1183 [ label = "A=INT(A-(F1*9)) " ];
+	line1183 -> line1185 [ label = "pc++" ];
+
+
+	line1185 [ label = "A>=0 ?" ];
+	line1185 -> line1194 [ label = "A>=0" ];
+	line1185 -> line1187 [ label = "else" ];
+
+
+	line1187 [ label = "PRINT '   INSUFFICIE..." ];
+	line1187 -> line1189 [ label = "pc++" ];
+
+
+	line1189 [ label = "D=INT(D+(A/W)) " ];
+	line1189 -> line1190 [ label = "pc++" ];
+
+
+	line1190 [ label = "A=0 " ];
+	line1190 -> line1194 [ label = "pc++" ];
+
+
+	line1194 [ label = "B=INT(B-B5) " ];
+	line1194 -> line1200 [ label = "pc++" ];
+
+
+	line1200 [ label = "H=0 ?" ];
+	line1200 -> line1250 [ label = "H=0" ];
+	line1200 -> line1220 [ label = "else" ];
+
+
+	line1220 [ label = "C1=INT(H+(RND(1)*10)-(RND(1)*20)) " ];
+	line1220 -> line1224 [ label = "pc++" ];
+
+
+	line1224 [ label = "C>0 ?" ];
+	line1224 -> line1230 [ label = "C>0" ];
+	line1224 -> line1226 [ label = "else" ];
+
+
+	line1226 [ label = "C1=C1+20 " ];
+	line1226 -> line1230 [ label = "pc++" ];
+
+
+	line1230 [ label = "PRINT C1;'WORKERS CA..." ];
+	line1230 -> line1250 [ label = "pc++" ];
+
+
+	line1250 [ label = "P1=INT(((I/100-B)/10)+(K/25)-((2000-D)/50)-(F1/2)) " ];
+	line1250 -> line1255 [ label = "pc++" ];
+
+
+	line1255 [ label = "PRINT ABS(P1);'COUNT..." ];
+	line1255 -> line1260 [ label = "pc++" ];
+
+
+	line1260 [ label = "P1<0 ?" ];
+	line1260 -> line1275 [ label = "P1<0" ];
+	line1260 -> line1265 [ label = "else" ];
+
+
+	line1265 [ label = "PRINT 'CAME TO'; " ];
+	line1265 -> line1270 [ label = "pc++" ];
+
+
+	line1270 [ label = "GOTO 1280 " ];
+	line1270 -> line1280 [ label = "GOTO 1280 " ];
+
+
+	line1275 [ label = "PRINT 'LEFT'; " ];
+	line1275 -> line1280 [ label = "pc++" ];
+
+
+	line1280 [ label = "PRINT ' THE ISLAND.'..." ];
+	line1280 -> line1290 [ label = "pc++" ];
+
+
+	line1290 [ label = "B=INT(B+P1) " ];
+	line1290 -> line1292 [ label = "pc++" ];
+
+
+	line1292 [ label = "C=INT(C+C1) " ];
+	line1292 -> line1305 [ label = "pc++" ];
+
+
+	line1305 [ label = "U2=INT(((2000-D)*((RND(1)+1.5)/2))) " ];
+	line1305 -> line1310 [ label = "pc++" ];
+
+
+	line1310 [ label = "J=0 ?" ];
+	line1310 -> line1324 [ label = "J=0" ];
+	line1310 -> line1320 [ label = "else" ];
+
+
+	line1320 [ label = "PRINT 'OF ';INT(J);'..." ];
+	line1320 -> line1324 [ label = "pc++" ];
+
+
+	line1324 [ label = "J>U2 ?" ];
+	line1324 -> line1330 [ label = "J>U2" ];
+	line1324 -> line1326 [ label = "else" ];
+
+
+	line1326 [ label = "U2=J " ];
+	line1326 -> line1330 [ label = "pc++" ];
+
+
+	line1330 [ label = "PRINT ' YOU HARVESTE..." ];
+	line1330 -> line1340 [ label = "pc++" ];
+
+
+	line1340 [ label = "U2=0 ?" ];
+	line1340 -> line1370 [ label = "U2=0" ];
+	line1340 -> line1344 [ label = "else" ];
+
+
+	line1344 [ label = "T1>=2 ?" ];
+	line1344 -> line1370 [ label = "T1>=2" ];
+	line1344 -> line1350 [ label = "else" ];
+
+
+	line1350 [ label = "PRINT '   (DUE TO ';..." ];
+	line1350 -> line1355 [ label = "pc++" ];
+
+
+	line1355 [ label = "T1=0 ?" ];
+	line1355 -> line1365 [ label = "T1=0" ];
+	line1355 -> line1360 [ label = "else" ];
+
+
+	line1360 [ label = "PRINT 'INCREASED '; " ];
+	line1360 -> line1365 [ label = "pc++" ];
+
+
+	line1365 [ label = "PRINT 'AIR AND WATER..." ];
+	line1365 -> line1370 [ label = "pc++" ];
+
+
+	line1370 [ label = "Q=INT((J-U2)*(W/2)) " ];
+	line1370 -> line1380 [ label = "pc++" ];
+
+
+	line1380 [ label = "PRINT 'MAKING';INT(Q..." ];
+	line1380 -> line1390 [ label = "pc++" ];
+
+
+	line1390 [ label = "A=INT(A+Q) " ];
+	line1390 -> line1400 [ label = "pc++" ];
+
+
+	line1400 [ label = "V1=INT(((B-P1)*22)+(RND(1)*500)) " ];
+	line1400 -> line1405 [ label = "pc++" ];
+
+
+	line1405 [ label = "V2=INT((2000-D)*15) " ];
+	line1405 -> line1410 [ label = "pc++" ];
+
+
+	line1410 [ label = "PRINT ' YOU MADE';AB..." ];
+	line1410 -> line1420 [ label = "pc++" ];
+
+
+	line1420 [ label = "V2=0 ?" ];
+	line1420 -> line1450 [ label = "V2=0" ];
+	line1420 -> line1425 [ label = "else" ];
+
+
+	line1425 [ label = "V1-V2>=V3 ?" ];
+	line1425 -> line1450 [ label = "V1-V2>=V3" ];
+	line1425 -> line1430 [ label = "else" ];
+
+
+	line1430 [ label = "PRINT '   DECREASE B..." ];
+	line1430 -> line1435 [ label = "pc++" ];
+
+
+	line1435 [ label = "G1=10*RND(1) " ];
+	line1435 -> line1440 [ label = "pc++" ];
+
+
+	line1440 [ label = "G1<=2 ?" ];
+	line1440 -> line1460 [ label = "G1<=2" ];
+	line1440 -> line1442 [ label = "else" ];
+
+
+	line1442 [ label = "G1<=4 ?" ];
+	line1442 -> line1465 [ label = "G1<=4" ];
+	line1442 -> line1444 [ label = "else" ];
+
+
+	line1444 [ label = "G1<=6 ?" ];
+	line1444 -> line1470 [ label = "G1<=6" ];
+	line1444 -> line1446 [ label = "else" ];
+
+
+	line1446 [ label = "G1<=8 ?" ];
+	line1446 -> line1475 [ label = "G1<=8" ];
+	line1446 -> line1448 [ label = "else" ];
+
+
+	line1448 [ label = "G1<=10 ?" ];
+	line1448 -> line1480 [ label = "G1<=10" ];
+	line1448 -> line1450 [ label = "else" ];
+
+
+	line1450 [ label = "V3=ABS(INT(V1-V2)) " ];
+	line1450 -> line1451 [ label = "pc++" ];
+
+
+	line1451 [ label = "A=INT(A+V3) " ];
+	line1451 -> line1452 [ label = "pc++" ];
+
+
+	line1452 [ label = "GOTO 1500 " ];
+	line1452 -> line1500 [ label = "GOTO 1500 " ];
+
+
+	line1460 [ label = "PRINT 'FISH POPULATI..." ];
+	line1460 -> line1462 [ label = "pc++" ];
+
+
+	line1462 [ label = "GOTO 1450 " ];
+	line1462 -> line1450 [ label = "GOTO 1450 " ];
+
+
+	line1465 [ label = "PRINT 'AIR POLLUTION..." ];
+	line1465 -> line1467 [ label = "pc++" ];
+
+
+	line1467 [ label = "GOTO 1450 " ];
+	line1467 -> line1450 [ label = "GOTO 1450 " ];
+
+
+	line1470 [ label = "PRINT 'MINERAL BATHS..." ];
+	line1470 -> line1472 [ label = "pc++" ];
+
+
+	line1472 [ label = "GOTO 1450 " ];
+	line1472 -> line1450 [ label = "GOTO 1450 " ];
+
+
+	line1475 [ label = "PRINT 'UNPLEASANT SM..." ];
+	line1475 -> line1477 [ label = "pc++" ];
+
+
+	line1477 [ label = "GOTO 1450 " ];
+	line1477 -> line1450 [ label = "GOTO 1450 " ];
+
+
+	line1480 [ label = "PRINT 'HOTELS ARE LO..." ];
+	line1480 -> line1482 [ label = "pc++" ];
+
+
+	line1482 [ label = "GOTO 1450 " ];
+	line1482 -> line1450 [ label = "GOTO 1450 " ];
+
+
+	line1500 [ label = "B5>200 ?" ];
+	line1500 -> line1600 [ label = "B5>200" ];
+	line1500 -> line1505 [ label = "else" ];
+
+
+	line1505 [ label = "B<343 ?" ];
+	line1505 -> line1700 [ label = "B<343" ];
+	line1505 -> line1510 [ label = "else" ];
+
+
+	line1510 [ label = "(A4/100)>5 ?" ];
+	line1510 -> line1800 [ label = "(A4/100)>5" ];
+	line1510 -> line1515 [ label = "else" ];
+
+
+	line1515 [ label = "C>B ?" ];
+	line1515 -> line1550 [ label = "C>B" ];
+	line1515 -> line1520 [ label = "else" ];
+
+
+	line1520 [ label = "N5-1=X5 ?" ];
+	line1520 -> line1900 [ label = "N5-1=X5" ];
+	line1520 -> line1545 [ label = "else" ];
+
+
+	line1545 [ label = "GOTO 2000 " ];
+	line1545 -> line2000 [ label = "GOTO 2000 " ];
+
+
+	line1550 [ label = "PRINT " ];
+	line1550 -> line1552 [ label = "pc++" ];
+
+
+	line1552 [ label = "PRINT " ];
+	line1552 -> line1560 [ label = "pc++" ];
+
+
+	line1560 [ label = "PRINT 'THE NUMBER OF..." ];
+	line1560 -> line1562 [ label = "pc++" ];
+
+
+	line1562 [ label = "PRINT 'OF COUNTRYMEN..." ];
+	line1562 -> line1564 [ label = "pc++" ];
+
+
+	line1564 [ label = "PRINT 'TAKEN OVER TH..." ];
+	line1564 -> line1570 [ label = "pc++" ];
+
+
+	line1570 [ label = "RND(1)<=.5 ?" ];
+	line1570 -> line1580 [ label = "RND(1)<=.5" ];
+	line1570 -> line1574 [ label = "else" ];
+
+
+	line1574 [ label = "PRINT 'YOU HAVE BEEN..." ];
+	line1574 -> line1576 [ label = "pc++" ];
+
+
+	line1576 [ label = "PRINT 'RESIDING IN P..." ];
+	line1576 -> line1578 [ label = "pc++" ];
+
+
+	line1578 [ label = "GOTO 1590 " ];
+	line1578 -> line1590 [ label = "GOTO 1590 " ];
+
+
+	line1580 [ label = "PRINT 'YOU HAVE BEEN..." ];
+	line1580 -> line1590 [ label = "pc++" ];
+
+
+	line1590 [ label = "PRINT " ];
+	line1590 -> line1592 [ label = "pc++" ];
+
+
+	line1592 [ label = "PRINT " ];
+	line1592 -> line1596 [ label = "pc++" ];
+
+
+	line1596 [ label = "STOP " shape = "none" ];
+
+
+	line1600 [ label = "PRINT " ];
+	line1600 -> line1602 [ label = "pc++" ];
+
+
+	line1602 [ label = "PRINT " ];
+	line1602 -> line1610 [ label = "pc++" ];
+
+
+	line1610 [ label = "PRINT B5;'COUNTRYMEN..." ];
+	line1610 -> line1615 [ label = "pc++" ];
+
+
+	line1615 [ label = "PRINT 'DUE TO THIS E..." ];
+	line1615 -> line1620 [ label = "pc++" ];
+
+
+	line1620 [ label = "PRINT 'BEEN IMPEACHE..." ];
+	line1620 -> line1622 [ label = "pc++" ];
+
+
+	line1622 [ label = "M6=INT(RND(1)*10) " ];
+	line1622 -> line1625 [ label = "pc++" ];
+
+
+	line1625 [ label = "M6<=3 ?" ];
+	line1625 -> line1670 [ label = "M6<=3" ];
+	line1625 -> line1630 [ label = "else" ];
+
+
+	line1630 [ label = "M6<=6 ?" ];
+	line1630 -> line1680 [ label = "M6<=6" ];
+	line1630 -> line1635 [ label = "else" ];
+
+
+	line1635 [ label = "M6<=10 ?" ];
+	line1635 -> line1690 [ label = "M6<=10" ];
+	line1635 -> line1670 [ label = "else" ];
+
+
+	line1670 [ label = "PRINT 'ALSO HAD YOUR..." ];
+	line1670 -> line1672 [ label = "pc++" ];
+
+
+	line1672 [ label = "GOTO 1590 " ];
+	line1672 -> line1590 [ label = "GOTO 1590 " ];
+
+
+	line1680 [ label = "PRINT 'HAVE ALSO GAI..." ];
+	line1680 -> line1682 [ label = "pc++" ];
+
+
+	line1682 [ label = "GOTO 1590 " ];
+	line1682 -> line1590 [ label = "GOTO 1590 " ];
+
+
+	line1690 [ label = "PRINT 'HAVE ALSO BEE..." ];
+	line1690 -> line1692 [ label = "pc++" ];
+
+
+	line1692 [ label = "GOTO 1590 " ];
+	line1692 -> line1590 [ label = "GOTO 1590 " ];
+
+
+	line1700 [ label = "PRINT " ];
+	line1700 -> line1702 [ label = "pc++" ];
+
+
+	line1702 [ label = "PRINT " ];
+	line1702 -> line1710 [ label = "pc++" ];
+
+
+	line1710 [ label = "PRINT 'OVER ONE THIR..." ];
+	line1710 -> line1715 [ label = "pc++" ];
+
+
+	line1715 [ label = "PRINT 'WERE ELECTED ..." ];
+	line1715 -> line1720 [ label = "pc++" ];
+
+
+	line1720 [ label = "PRINT 'HATE YOUR GUT..." ];
+	line1720 -> line1730 [ label = "pc++" ];
+
+
+	line1730 [ label = "GOTO 1570 " ];
+	line1730 -> line1570 [ label = "GOTO 1570 " ];
+
+
+	line1800 [ label = "B5-F1<2 ?" ];
+	line1800 -> line1515 [ label = "B5-F1<2" ];
+	line1800 -> line1807 [ label = "else" ];
+
+
+	line1807 [ label = "PRINT " ];
+	line1807 -> line1815 [ label = "pc++" ];
+
+
+	line1815 [ label = "PRINT 'MONEY WAS LEF..." ];
+	line1815 -> line1820 [ label = "pc++" ];
+
+
+	line1820 [ label = "PRINT 'NOT SPEND. AS..." ];
+	line1820 -> line1825 [ label = "pc++" ];
+
+
+	line1825 [ label = "PRINT 'OF STARVATION..." ];
+	line1825 -> line1830 [ label = "pc++" ];
+
+
+	line1830 [ label = "PRINT 'BEEN FORCED T..." ];
+	line1830 -> line1835 [ label = "pc++" ];
+
+
+	line1835 [ label = "PRINT 'THE CHOICE IS..." ];
+	line1835 -> line1840 [ label = "pc++" ];
+
+
+	line1840 [ label = "PRINT 'IF YOU CHOOSE..." ];
+	line1840 -> line1845 [ label = "pc++" ];
+
+
+	line1845 [ label = "PRINT 'BEFORE PROCEE..." ];
+	line1845 -> line1850 [ label = "pc++" ];
+
+
+	line1850 [ label = "GOTO 1590 " ];
+	line1850 -> line1590 [ label = "GOTO 1590 " ];
+
+
+	line1900 [ label = "PRINT " ];
+	line1900 -> line1902 [ label = "pc++" ];
+
+
+	line1902 [ label = "PRINT " ];
+	line1902 -> line1920 [ label = "pc++" ];
+
+
+	line1920 [ label = "PRINT 'CONGRATULATIO..." ];
+	line1920 -> line1925 [ label = "pc++" ];
+
+
+	line1925 [ label = "PRINT 'YOU HAVE SUCC..." ];
+	line1925 -> line1930 [ label = "pc++" ];
+
+
+	line1930 [ label = "PRINT 'OF OFFICE. YO..." ];
+	line1930 -> line1935 [ label = "pc++" ];
+
+
+	line1935 [ label = "PRINT 'NEVERTHELESS,..." ];
+	line1935 -> line1940 [ label = "pc++" ];
+
+
+	line1940 [ label = "PRINT 'LUCK - YOU'LL..." ];
+	line1940 -> line1945 [ label = "pc++" ];
+
+
+	line1945 [ label = "PRINT 'PLAYS THIS GA..." ];
+	line1945 -> line1950 [ label = "pc++" ];
+
+
+	line1950 [ label = "GOTO 1590 " ];
+	line1950 -> line1590 [ label = "GOTO 1590 " ];
+
+
+	line1960 [ label = "PRINT 'HOW MANY YEAR..." ];
+	line1960 -> line1961 [ label = "pc++" ];
+
+
+	line1961 [ label = "INPUT X5 " ];
+	line1961 -> line1962 [ label = "pc++" ];
+
+
+	line1962 [ label = "X5<0 ?" ];
+	line1962 -> line1590 [ label = "X5<0" ];
+	line1962 -> line1963 [ label = "else" ];
+
+
+	line1963 [ label = "X5<8 ?" ];
+	line1963 -> line1969 [ label = "X5<8" ];
+	line1963 -> line1965 [ label = "else" ];
+
+
+	line1965 [ label = "PRINT '   COME ON, Y..." ];
+	line1965 -> line1967 [ label = "pc++" ];
+
+
+	line1967 [ label = "GOTO 1960 " ];
+	line1967 -> line1960 [ label = "GOTO 1960 " ];
+
+
+	line1969 [ label = "PRINT 'HOW MUCH DID ..." ];
+	line1969 -> line1970 [ label = "pc++" ];
+
+
+	line1970 [ label = "INPUT A " ];
+	line1970 -> line1971 [ label = "pc++" ];
+
+
+	line1971 [ label = "A<0 ?" ];
+	line1971 -> line1590 [ label = "A<0" ];
+	line1971 -> line1975 [ label = "else" ];
+
+
+	line1975 [ label = "PRINT 'HOW MANY COUN..." ];
+	line1975 -> line1976 [ label = "pc++" ];
+
+
+	line1976 [ label = "INPUT B " ];
+	line1976 -> line1977 [ label = "pc++" ];
+
+
+	line1977 [ label = "B<0 ?" ];
+	line1977 -> line1590 [ label = "B<0" ];
+	line1977 -> line1980 [ label = "else" ];
+
+
+	line1980 [ label = "PRINT 'HOW MANY WORK..." ];
+	line1980 -> line1981 [ label = "pc++" ];
+
+
+	line1981 [ label = "INPUT C " ];
+	line1981 -> line1982 [ label = "pc++" ];
+
+
+	line1982 [ label = "C<0 ?" ];
+	line1982 -> line1590 [ label = "C<0" ];
+	line1982 -> line1990 [ label = "else" ];
+
+
+	line1990 [ label = "PRINT 'HOW MANY SQUA..." ];
+	line1990 -> line1991 [ label = "pc++" ];
+
+
+	line1991 [ label = "INPUT D " ];
+	line1991 -> line1992 [ label = "pc++" ];
+
+
+	line1992 [ label = "D<0 ?" ];
+	line1992 -> line1590 [ label = "D<0" ];
+	line1992 -> line1993 [ label = "else" ];
+
+
+	line1993 [ label = "D>2000 ?" ];
+	line1993 -> line1996 [ label = "D>2000" ];
+	line1993 -> line1994 [ label = "else" ];
+
+
+	line1994 [ label = "D>1000 ?" ];
+	line1994 -> line100 [ label = "D>1000" ];
+	line1994 -> line1996 [ label = "else" ];
+
+
+	line1996 [ label = "PRINT '   COME ON, Y..." ];
+	line1996 -> line1997 [ label = "pc++" ];
+
+
+	line1997 [ label = "PRINT '   AND 1,000..." ];
+	line1997 -> line1998 [ label = "pc++" ];
+
+
+	line1998 [ label = "GOTO 1990 " ];
+	line1998 -> line1990 [ label = "GOTO 1990 " ];
+
+
+	line2000 [ label = "X5=X5+1 " ];
+	line2000 -> line2020 [ label = "pc++" ];
+
+
+	line2020 [ label = "B5=0 " ];
+	line2020 -> line2040 [ label = "pc++" ];
+
+
+	line2040 [ label = "GOTO 100 " ];
+	line2040 -> line100 [ label = "GOTO 100 " ];
+
+
+	line2046 [ label = "END " shape = "none" ];
+
+
+}
+
+
